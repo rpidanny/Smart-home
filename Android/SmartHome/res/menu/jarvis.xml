@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.abhi.jarvis.Jarvis" >
+
+    
+    <item
+        android:id="@+id/customScript1"
+        android:title="Custom Script 1"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/customScript2"
+        android:title="Custom Script 2"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/customScript3"
+        android:title="Custom Script 3"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_sysbar_quicksettings"
+        android:title="@string/action_settings"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/action_connect"
+        android:title="Connect"
+        android:showAsAction="never"/>
+
+</menu>

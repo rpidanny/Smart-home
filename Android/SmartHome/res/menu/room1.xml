@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.abhishek.smarthome.Room1Activity" >
+	<item android:id="@+id/menu_jarvis"
+          android:icon="@drawable/ic_voice_search"
+          android:title="Voice Control" 
+          android:showAsAction="always"/>
+	
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_sysbar_quicksettings"
+        android:title="@string/action_settings"
+        android:showAsAction="always"/>
+    
+</menu>

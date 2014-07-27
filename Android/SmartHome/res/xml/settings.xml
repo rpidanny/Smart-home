@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Home Settings" >
+        <EditTextPreference 
+            	android:title="IP Address" 
+            	android:summary="Set the IP address of Server." 
+            	android:key="prefIpaddress"/>
+        <EditTextPreference 
+            	android:title="Video" 
+            	android:summary="Set the Link to the Video Server." 
+            	android:key="prefVideo"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Jarvis Settings" >
+        <EditTextPreference 
+            	android:title="User Name" 
+            	android:summary="Set the User Name." 
+            	android:key="prefUser"/>
+        <EditTextPreference 
+            	android:title="Password" 
+            	android:summary="Set the Password." 
+            	android:key="prefPassword"/>
+    </PreferenceCategory>
+    
+</PreferenceScreen>

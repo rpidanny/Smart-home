@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+  
+      
+    <PreferenceCategory android:title="GPIO Settings" >
+        <EditTextPreference 
+            	android:title="GPIO 0" 
+            	android:summary="Name the GPIO pin." 
+            	android:key="prefGPIO0"/>
+       <EditTextPreference 
+            	android:title="GPIO 1" 
+            	android:summary="Name the GPIO pin." 
+            	android:key="prefGPIO1"/>
+       <EditTextPreference 
+            	android:title="GPIO 2" 
+            	android:summary="Name the GPIO pin." 
+            	android:key="prefGPIO2"/>
+       <EditTextPreference 
+            	android:title="GPIO 3" 
+            	android:summary="Name the GPIO pin." 
+            	android:key="prefGPIO3"/>
+       <EditTextPreference 
+            	android:title="GPIO 7" 
+            	android:summary="Name the GPIO pin." 
+            	android:key="prefGPIO7"/>
+       <EditTextPreference 
+            	android:title="GPIO 12" 
+            	android:summary="Name the GPIO pin." 
+            	android:key="prefGPIO12"/>
+       <EditTextPreference 
+            	android:title="GPIO 13" 
+            	android:summary="Name the GPIO pin." 
+            	android:key="prefGPIO13"/>
+       <EditTextPreference 
+            	android:title="GPIO 14" 
+            	android:summary="Name the GPIO pin." 
+            	android:key="prefGPIO"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Jarvis" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefVoice"
+            android:title="Jarvis's Voice"
+            android:summary="Enable/Disable Jarvis's Voice" >
+        </CheckBoxPreference>
+
+        
+    </PreferenceCategory>
+    
+    
+     <PreferenceCategory android:title="Custom Commands" >
+         <EditTextPreference
+            android:defaultValue=""
+            android:key="prefFaceScript1"
+            android:title="Face Login Script"
+            android:summary="Enter Script" />
+         
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="prefCustomScript1"
+            android:title="Custom Script 1"
+            android:summary="Enter Custom Script" />
+     <EditTextPreference
+            android:defaultValue=""
+            android:key="prefCustomScript2"
+            android:title="Custom Script 2"
+            android:summary="Enter Custom Script" />
+      <EditTextPreference
+            android:defaultValue=""
+            android:key="prefCustomScript2"
+            android:title="Custom Script 2"
+            android:summary="Enter Custom Script" />
+      
+      </PreferenceCategory>
+</PreferenceScreen>

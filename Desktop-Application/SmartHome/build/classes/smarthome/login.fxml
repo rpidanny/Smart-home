@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane hgap="10.0" minHeight="270.0" minWidth="350.0" styleClass="root" stylesheets="@LoginCSS.css" vgap="10.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="smarthome.LoginWindowController">
+ 
+   <children>
+       
+      <Text id="welcome-text" text="Welcome" GridPane.columnSpan="2" />
+      <Label text="User Name" GridPane.rowIndex="1" />
+      <Label text="Password" GridPane.rowIndex="2" />
+      <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="username"/>
+      <HBox alignment="bottom_right" spacing="10" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <children>
+            <Button text="Log In" onAction="#loginOnClick"/>
+         </children>
+      </HBox>
+      <Text id="actiontarget" text="" GridPane.columnIndex="0" GridPane.rowIndex="4" fx:id="allertTextBox" GridPane.columnSpan="2"/>
+      <PasswordField GridPane.columnIndex="1" GridPane.rowIndex="2" fx:id="password"/>
+   </children>
+   
+   
+   <padding>
+      <Insets bottom="10.0" left="35.0" right="25.0" top="45.0" />
+   </padding>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   
+  
+
+</GridPane>

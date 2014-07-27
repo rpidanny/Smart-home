@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="shortcut icon" href="favicon.ico">
+        <title>Smart Home</title>
+        <script type="text/javascript" src="/webiopi.js"></script>
+        <script type="text/javascript">
+        webiopi().ready(function() {
+                // Create a "Light" labeled button for GPIO 17
+                var button1 = webiopi().createGPIOButton(17, "Table Light");
+                var button2 = webiopi().createGPIOButton(27, "Wall Light");
+
+
+                // Append button to HTML element with ID="controls" using jQuery
+                $("#controls").append(button1);
+                $("#controls").append(button2);
+
+                // Refresh GPIO buttons
+                // pass true to refresh repeatedly of false to refresh once
+                webiopi().refreshGPIO(true);
+        });
+          </script>
+        <style type="text/css">
+              <!--  button {
+                        display: block;
+                        margin: 5px 5px 5px 5px;
+                        width: 200px;
+                        height: 45px;
+                        font-size: 24pt;
+                        font-weight: bold;
+                        color: white;
+                }
+                -->
+				button {
+	
+						border-radius:6px;
+						border:1px solid #dcdcdc;
+						display:block;
+						color:#E8E8E8  ;
+						font-family:arial;
+						font-size:15px;
+						font-weight:bold;
+						padding:6px 24px;
+						text-decoration:none;
+					}
+				.mycss
+					{
+						font-weight:normal;color:#B0B0B0 ;letter-spacing:1pt;word-spacing:2pt;font-size:12px;text-align:center;font-family:lucida sans unicode, lucida grande, sans-serif;line-height:1;
+					}
+                #gpio17.LOW {
+                        background-color: #585858 ;
+                }
+                
+                #gpio17.HIGH {
+                        background-color: #00CC00;
+                }
+				 #gpio27.LOW {
+                        background-color: #585858 ;
+                }
+                
+                #gpio27.HIGH {
+                        background-color: #00CC00;
+                }
+				 #gpio22.LOW {
+                        background-color: #585858 ;
+                }
+                
+                #gpio22.HIGH {
+                        background-color: #00CC00;
+                }
+				 #gpio10.LOW {
+                        background-color: #585858 ;
+                }
+                
+                #gpio10.HIGH {
+                        background-color: #00CC00;
+                }
+				 #gpio9.LOW {
+                        background-color: #585858 ;
+                }
+                
+                #gpio9.HIGH {
+                        background-color: #00CC00;
+                }
+				 #gpio11.LOW {
+                        background-color: #585858 ;
+                }
+                
+                #gpio11.HIGH {
+                        background-color: #00CC00;
+                }
+                
+        </style>
+</head>
+<body>
+        <div id="controls" align="center">
+		
+		<!--<img src="raspberryPi.png" height="100" width="114">--></div><br>
+		<div align="center">
+		<p class="mycss">Powered By:</p>
+		<img src="logo5.png" width="121"></div><br>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" 
+
+    android:background="@drawable/wood1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:background="@drawable/linearlayout_bg"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/btnLiving"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_style"
+            android:textColor="@drawable/textcolor"
+            android:padding="10dp"
+            android:text="Study Room" />
+
+        <Button
+            android:id="@+id/btnDining"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_style"
+            android:textColor="@drawable/textcolor"
+            android:padding="10dp"
+            android:text="Master Bed Room" />
+        <Button
+            android:id="@+id/btnMiscellaneous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_style"
+            android:textColor="@drawable/textcolor"
+            android:padding="10dp"
+            android:text="Miscellaneous" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/white_blue" />
+
+    <TextView
+        android:id="@+id/voteClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@drawable/textcolor"
+        android:layout_marginBottom="1dp"
+        android:text="Send A Vote" />
+
+</RelativeLayout>

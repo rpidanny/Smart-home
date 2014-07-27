@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SmartHome.jnlp">
+  <information>
+    <title>SmartHome</title>
+    <vendor>danny</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SmartHome.jar" size="413594" download="eager" />
+    <jar href="lib/cmu_time_awb.jar" size="1723774" download="eager" />
+    <jar href="lib/cmu_us_kal.jar" size="4899359" download="eager" />
+    <jar href="lib/cmudict04.jar" size="894905" download="eager" />
+    <jar href="lib/cmulex.jar" size="599429" download="eager" />
+    <jar href="lib/cmutimelex.jar" size="1231" download="eager" />
+    <jar href="lib/commons-codec-1.6.jar" size="232771" download="eager" />
+    <jar href="lib/commons-logging-1.1.3.jar" size="62050" download="eager" />
+    <jar href="lib/en_us.jar" size="866598" download="eager" />
+    <jar href="lib/freetts-jsapi10.jar" size="56313" download="eager" />
+    <jar href="lib/freetts.jar" size="208668" download="eager" />
+    <jar href="lib/httpclient-4.3.4.jar" size="590004" download="eager" />
+    <jar href="lib/httpcore-4.3.2.jar" size="282269" download="eager" />
+    <jar href="lib/mbrola.jar" size="11926" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="SmartHome" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="smarthome.SmartHome"  name="SmartHome" />
+  <update check="always"/>
+</jnlp>
