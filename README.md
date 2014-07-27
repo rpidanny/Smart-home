@@ -2,11 +2,12 @@ minor-project
 =============
 
 Minor Project for Bachelors in Electronics And Communication
+<br>
+<br>
 
+<b>Project Title : </b>Home Automation<br>
 
-<b>Project Title : </b>Home Automation<br><br><br>
-
-<>Features :</b><br><br>
+<b>Features :</b><br><br>
 1) Voice Control/Button  Control through Android Application<br>
 2) Desktop Application using Java<br>
 3) Web page based control<br>
