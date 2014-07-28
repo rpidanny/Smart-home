@@ -1,7 +1,7 @@
 minor-project
 =============
 
-Minor Project for Bachelors in Electronics And Communication
+Minor Project for Bachelors in Electronics And Communication Engineering
 <br>
 <br>
 
