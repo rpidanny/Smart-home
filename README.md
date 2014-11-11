@@ -1,7 +1,7 @@
-minor-project
+Smart-Home
 =============
 
-Minor Project for Bachelors in Electronics And Communication Engineering
+Prototype of a Smart Home System
 <br>
 <br>
 
