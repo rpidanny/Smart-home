@@ -18,3 +18,9 @@ Prototype of a Smart Home System
 8) Automatic Loadshedding synced Switching System<br>
 9) Music Sync Lights<br>
 10) Laser Based Security System<br>
+
+
+<b>Video :</b><br>
+<a href="https://www.youtube.com/watch?v=A_t-yhoAyw0&list=UUgzeUE1iHHuOwLvjRzpHJ8w">https://www.youtube.com/watch?v=A_t-yhoAyw0&list=UUgzeUE1iHHuOwLvjRzpHJ8w</a>
+<br>
+<a href="https://www.youtube.com/watch?v=A67yF8BcukM&list=UUgzeUE1iHHuOwLvjRzpHJ8w">https://www.youtube.com/watch?v=A67yF8BcukM&list=UUgzeUE1iHHuOwLvjRzpHJ8w</a>
